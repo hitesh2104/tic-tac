@@ -58,14 +58,15 @@ alert(cells[0]);
     if ((cells[0] && cells[0] === cells[1] && cells[1] === cells[2])) {
         return "win";
     }
+     return null;
     // Check for a tie
-    else if (!cells.includes(" ")) {
+  /*  else if (!cells.includes(" ")) {
         return "tie";
     }
     // Game is not over
     else {
         return "play";
-    }
+    }*/
   }
 
   function handleCellClick(index) {
