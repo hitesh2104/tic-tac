@@ -55,8 +55,7 @@
 alert(cells[3]);
    alert(cells[4]);
     alert(cells[5]);
-    if ((cells[0] && cells[0] === cells[1] && cells[1] === cells[2]) ||
-        (cells[3] && cells[3] === cells[4] && board[4] === cells[5]) ) {
+    if ( (cells[3] && cells[3] === cells[4] && board[4] === cells[5]) ) {
         return "win";
     }
      return null;
